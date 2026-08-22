@@ -1,0 +1,10 @@
+{
+  "name": "up366-extracted",
+  "version": "1.0.0",
+  "description": "天学网主程序解包，可更改并运行",
+  "scripts": {
+    "start": "client\\up366.exe",
+    "build": "node sync_all.js",
+    "build:hook": "node swap.js"
+  }
+}

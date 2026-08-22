@@ -1,0 +1,6 @@
+{
+  "name": "ases",
+  "browser": "index.js",
+  "renderer": "index.js",
+  "version": "4.3.0.0"
+}

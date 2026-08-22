@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content name='test'>
+    <part id="Init" title="Init">
+		<group id="Init" title="Init" shownav="false">
+			<screen type="1" textfile="ce.txt" wait="0" desc="" />
+		</group>
+	</part>
+	<part id="Start" title="Start">
+		<group id="Start" title="Start" shownav="false">
+			<screen type="1" textfile="ce.txt" mediafile="ce-1.wav" wait="0" desc="" />
+		</group>
+	</part>
+	<part id="Original" title="Original">
+		<group id="Original" title="Original" shownav="false">
+			<screen type="1" textfile="ce.txt" mediafile="ce-3.wav" wait="0" desc="" />
+		</group>
+	</part>
+	<part id="Record" title="Record">
+		<group id="Record" title="Record" shownav="false">
+			<screen type="0" textfile="ce.txt" mediafile="" wait="10" desc="" >
+				<record type="2" soundfile="ce-3.wav" answerfile="ce.txt" recordfile="test">
+					<item soundfile="ce-3.wav" netfile="ce.net" />					
+			  </record>
+			</screen>
+		</group>
+	</part>
+	<part id="End" title="End">
+		<group id="End" title="End" shownav="false">
+			<screen type="1" textfile="ce.txt" mediafile="ce-2.wav" wait="0" desc="" />
+		</group>
+	</part>
+</content>

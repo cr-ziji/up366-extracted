@@ -1,0 +1,10 @@
+.idea
+extracted/*.u3enc
+client/**/*
+!client/resources
+!client/resources/**/*
+client/resources/plugins/ases/ia32
+!client/modules
+!client/modules/**/*
+userdata
+hook.log
